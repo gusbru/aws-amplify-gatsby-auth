@@ -17,7 +17,7 @@ const IndexPage = () => (
     <p>
       Create a new account: <Link to="/app/signup">Sign Up</Link>
     </p>
-    <div>{process.env.GATSBY_MY_TEST}</div>
+    <div>You should see {process.env.GATSBY_MY_TEST}</div>
     <Link to="/app/login">Sign In</Link>
     <br />
     <Link to="/app/home">Home</Link>
